@@ -1,0 +1,52 @@
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+ol {
+  display: inline-block;
+  text-align: center;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+li {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* 1. Element Selector styling applied via class */
+.red-text {
+  color: red;
+}
+
+/* 2. Class Selector */
+.black-text {
+  color: black;
+}
+
+/* 3. ID Selector */
+#green-item {
+  color: green;
+}
+
+/* 4. Attribute Selector */
+li[data-type="blue-item"] {
+  color: blue;
+}
